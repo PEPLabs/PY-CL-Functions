@@ -5,7 +5,7 @@ import inspect  # Importing inspect module for checking function parameters
 
 # Attempting to import the count_vowels function from lab.py
 try:
-    from ..main.lab import count_vowels
+    from src.main.lab import count_vowels
 except ImportError:
     raise ImportError("The function name or file name is incorrect. Please ensure that the function name is 'count_vowels' and it's in the 'lab.py' file.")
 
