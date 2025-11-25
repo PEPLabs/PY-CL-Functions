@@ -1,0 +1,22 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        [
+          {
+            "methodName": "test_function_parameters",
+            "label": "Verify count_vowels has the correct function parameter",
+            "description": "Checks that count_vowels defines exactly one parameter and that it is named 'string', as required for this lab’s implementation."
+          },
+          {
+            "methodName": "test_count_vowels",
+            "label": "Verify count_vowels correctly counts vowels in a string",
+            "description": "Ensures that count_vowels returns accurate vowel counts for various inputs, including 'Hello, World!', 'Python is awesome', and an empty string."
+          }
+        ]
+      ]
+    }
+  ]
+}
